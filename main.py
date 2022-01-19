@@ -16,7 +16,7 @@ This app retrieves bus arrvial time nearby my home in **Qbay** !
 # st.image("girl2.gif", width=300)
 
 col1 = st.sidebar
-col2, col3, col4 = st.columns((1,1,1))
+col2, col3 = st.columns((1,1))
 
 
 
