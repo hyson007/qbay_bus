@@ -128,15 +128,15 @@ for bus_stop_name, bus_stop_number in qbay_bus_stop.items():
 # st.write(final_df)
 
 
-        if i %3 ==0:
+        if i %2 ==0:
             col2.write(bus_stop_name)
             col2.write(getBUS(bus_stop_number))
-        if i %3 ==1:
+        if i %2 ==1:
             col3.write(bus_stop_name)
             col3.write(getBUS(bus_stop_number))
-        if i %3 ==2:
-            col4.write(bus_stop_name)
-            col4.write(getBUS(bus_stop_number))
+        # if i %3 ==2:
+        #     col4.write(bus_stop_name)
+        #     col4.write(getBUS(bus_stop_number))
         i += 1
 
 
